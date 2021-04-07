@@ -63,6 +63,11 @@ nav a
     color: black;
 }
 
+nav a:nth-child(1), nav a:nth-child(2)
+{
+    color: black;
+}
+
 nav a:visited
 {
     color: black;
