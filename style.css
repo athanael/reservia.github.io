@@ -975,12 +975,23 @@ Media qwery 1st breakpoint css
     {
         display: flex;
         width: 100%;
-        margin-bottom: 15px;
+    }
+    #form_part .form-little
+    {
+        margin-left: -0.3rem;
     }
     .form-little input
     {
         position: relative;
         z-index: 0;
+        height: 1.6rem;
+    }
+    #style_text_form_little
+    {
+        height: 2rem;
+        display: flex;
+        align-items: center;
+        background-color: #F2F2F2;
     }
     .form-little i
     {
@@ -988,11 +999,12 @@ Media qwery 1st breakpoint css
         color: white;
         text-align: center;
         z-index: 1;
-        margin-left: 0.4rem;
-        margin-top: 0.5rem;
+        margin-left: 0.7rem;
+        margin-top: 0.7rem;
     }
     #submit-little
     {
         width: 2rem;
+        border-radius: 0.5rem;
     }
 }
