@@ -764,10 +764,6 @@ Media qwery 1st breakpoint css
 
 @media (max-width: 820px)
 {
-    #filter_content
-    {
-        display: block;
-    }
     .button_filter
     {
         width: fit-content;
@@ -797,5 +793,37 @@ Media qwery 1st breakpoint css
     .hebergement-element
     {
         width: 40%;
+    }
+}
+@media (max-width: 610px)
+{
+    #signup
+    {
+        position: absolute;
+        left: 35%;
+        top: 5rem;
+    }
+
+    main 
+    {
+        margin-top: 6rem;
+    }
+
+    #search, #filter_content, #contextual_info
+    {
+        width: 100%;
+        margin-left: 3%;
+    }
+
+    nav ul
+    {
+        flex-wrap: nowrap;
+    }
+}
+@media (max-width: 560px)
+{
+    .footer-list
+    {
+        margin-right: 2rem;
     }
 }
