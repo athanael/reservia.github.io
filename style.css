@@ -420,7 +420,7 @@ Css hebergement section
     color: inherit;
 }
 
-.hebergement-element a:visited, #vertical-element-container a:visited, .big-image-container a:visited, .small-image-container a:link
+.hebergement-element a:visited, #vertical-element-container a:visited, .big-image-container a:visited, .small-image-container a:visited
 {
     color: black;
 }
