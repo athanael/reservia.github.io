@@ -801,32 +801,8 @@ Media qwery 1st breakpoint css
         width: 40%;
     }
 }
-@media (max-width: 610px) and (min-width: 560px)
-{
-    #signup
-    {
-        position: absolute;
-        left: 35%;
-        top: 5rem;
-    }
 
-    main 
-    {
-        margin-top: 6rem;
-    }
-
-    #search, #filter_content, #contextual_info
-    {
-        width: 100%;
-        margin-left: 3%;
-    }
-
-    nav ul
-    {
-        flex-wrap: nowrap;
-    }
-}
-@media (max-width: 560px)
+@media (max-width: 620px)
 {
     body 
     {
@@ -926,10 +902,6 @@ Media qwery 1st breakpoint css
     {
         margin-left: 0;
         margin-right: 3rem;
-    }
-    .button_filter:nth-child(3)
-    {
-        margin-right: 8rem;
     }
     #info_circle
     {
