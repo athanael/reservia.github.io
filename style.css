@@ -951,6 +951,7 @@ Media qwery 1st breakpoint css
     #hebergement-elements
     {
         margin-left: 1.7rem;
+        width: auto;
     }
     .hebergement-element
     {
