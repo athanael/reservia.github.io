@@ -152,6 +152,11 @@ Main - first section css
     align-items: center;
 }
 
+.form-little
+{
+    display: none;
+}
+
 form
 {
     height: 2rem;
@@ -835,16 +840,13 @@ Media qwery 1st breakpoint css
     }
     header img
     {
-        width: 10rem;
+        width: 6rem;
     }
     nav ul
     {
         flex-direction: column-reverse;
     }
-    nav ul li:nth-child(3)
-    {
-        margin-top: 1.4rem;
-    }
+
     nav ul li:nth-child(1)
     {
         display: block;
@@ -884,6 +886,10 @@ Media qwery 1st breakpoint css
         width: 50%;
         right: 0rem;
         top: 6rem;
+    }
+    #search_bar
+    {
+        max-width: 90%;
     }
     #search, #filters
     {
@@ -988,5 +994,33 @@ Media qwery 1st breakpoint css
     .footer-list
     {
         margin-left: 1.7rem !important;
+    }
+    .form
+    {
+        display: none;
+    }
+    .form-little
+    {
+        display: flex;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .form-little input
+    {
+        position: relative;
+        z-index: 0;
+    }
+    .form-little i
+    {
+        position: absolute;
+        color: white;
+        text-align: center;
+        z-index: 1;
+        margin-left: 0.4rem;
+        margin-top: 0.5rem;
+    }
+    #submit
+    {
+        width: 2rem;
     }
 }
